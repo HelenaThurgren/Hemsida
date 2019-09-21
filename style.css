@@ -1,0 +1,39 @@
+body{background-color:#9c9c63}
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  margin-left: 20%; }
+h2{
+  font-family:'Dancing Script';
+  font-size:36px; }
+img{
+    height: 150px;
+    margin: auto; }
+p{
+  font-family:'Dancing Script',cursive;
+  font-size: 26px;}
+.överst {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+.thurgren{
+  background-color: #9c9c63;
+  color: #331a00;
+  background-size: padding: 1px;
+  font-stretch: expanded; 70px;   }
+  .menyer{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around; }
+.gray-box{
+display: flex;
+flex-direction: column;
+border: 5px, solid;
+background-image: url("img/skallbjörke3.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+height: auto;
+width: auto;
+padding: 80px;
+margin: 40px;
+margin-top: 15px;}
