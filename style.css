@@ -18,13 +18,16 @@ p{
   color: #331a00;
   font-size: 26px;
   margin-top: 5px;}
+img{
+  height: 150px;
+}
 img:hover{
   border: 3px solid;
   animation: 3s infinite grow;}
 
   @keyframes grow {
   0%{ height: 200px}
-  100%{height: 400px}}
+  100%{height: 100%}}
 .överst{
   display: flex;
   height: 150px;
@@ -58,21 +61,40 @@ text-align: center;
 .kontakt{
 display: flex;
 flex-direction: row;
-justify-content: space-around;
-}
+justify-content: space-around;}
 .helahus{
 border: 1px solid;
 margin:40px;
 padding: 20px;}
+.helahus img{
+  height: 200px;
+  width: 200px}
 
 .helahus2 {
 border: 1px solid;
 margin:40px;
 padding: 20px;}
-
 .helahus2 img{
 height: 200px;
 width: 200px}
+
+.badrum{
+  border: 1px solid;
+  margin:40px;
+  padding: 20px;}
+  .badrum img{
+    height: 200px;
+    width: 200px}
+
+.detaljer{
+  border: 1px solid;
+  margin:40px;
+  padding: 20px;}
+  .detaljer img{
+  height: 200px;
+  width: 200px}
+
+
 
 
 
