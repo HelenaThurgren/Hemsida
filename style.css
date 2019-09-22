@@ -1,39 +1,96 @@
-body{background-color:#9c9c63}
-h1{
+body{background-color:#9c9c63;
+font-family: 'Dancing Script', cursive;
+color:#331a00; }
+header{
   font-family: 'Dancing Script', cursive;
-  font-size: 60px;
-  margin-left: 20%; }
+  color: #331a00;
+  font-size: 32px;
+  text-shadow: 2px 2px 10px #5c5c3d;
+  }
 h2{
   font-family:'Dancing Script';
-  font-size:36px; }
-img{
-    height: 150px;
-    margin: auto; }
+  font-size:36px;
+  color: #331a00;
+  margin-bottom: 5px;}
+
 p{
   font-family:'Dancing Script',cursive;
-  font-size: 26px;}
-.överst {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-.thurgren{
-  background-color: #9c9c63;
   color: #331a00;
-  background-size: padding: 1px;
-  font-stretch: expanded; 70px;   }
-  .menyer{
-    display: flex;
-    font-size: 30px;
-    justify-content: space-around; }
+  font-size: 26px;
+  margin-top: 5px;}
+img:hover{
+  border: 3px solid;
+  animation: 3s infinite grow;}
+
+  @keyframes grow {
+  0%{ height: 200px}
+  100%{height: 400px}}
+.överst{
+  display: flex;
+  height: 150px;
+  margin:auto;
+  align-items: center;
+  justify-content: space-around; }
+  .överst img{
+    height: 150px;
+    margin:auto;}
+
+.thurgren{
+text-align: center;
+  font-weight: bolder;
+   }
+.menyer{
+  display: flex;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  justify-content: space-around; }
 .gray-box{
+  display: flex;
+  flex-direction: column;
+  border: 5px solid;
+  background-image: url("img/skallbjörke3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding: 80px;
+    margin: 40px;
+    margin-top: 15px;}
+.kontakt{
 display: flex;
-flex-direction: column;
-border: 5px, solid;
-background-image: url("img/skallbjörke3.jpg");
-background-repeat: no-repeat;
-background-size: contain;
-height: auto;
-width: auto;
-padding: 80px;
-margin: 40px;
-margin-top: 15px;}
+flex-direction: row;
+justify-content: space-around;
+}
+.helahus{
+border: 1px solid;
+margin:40px;
+padding: 20px;}
+
+.helahus2 {
+border: 1px solid;
+margin:40px;
+padding: 20px;}
+
+.helahus2 img{
+height: 200px;
+width: 200px}
+
+
+
+@media(max-width:768px){
+header{
+colour: green;
+}
+Img{
+Width: 100%;
+}
+.gray-box{
+width:100%
+}
+.menyer{
+Flex-direction: column;
+}
+.kontakt{
+  flex-direction: column;
+  justify-content: space-between;
+}
+}
